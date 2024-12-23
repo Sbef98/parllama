@@ -1,0 +1,26 @@
+{
+    "appId": "testLlama",
+    "javascriptKey": "sticazzi",
+    "restAPIKey": "sticazzi",
+    "clientKey": "sticazzi",
+    "masterKey": "sticazzi",
+    "masterKeyIps": "0.0.0.0/0,::0",
+    "verifyUserEmails": false,
+    "startLiveQueryServer": false,
+    "databaseURI": "mongodb://root:MongoloideDelCazzo@mongoDev:27017/testLlama?authSource=admin",
+    "cloud": "./main.js",
+    "cacheMaxSize": 10000000,
+    "defaultLimit": 60000,
+    "objectIdSize": 15,
+    "verbose": false,
+    "publicServerURL": "http://localhost:1337/parse",
+    "enableCollationCaseComparison": true,
+    "convertEmailToLowercase": true,
+    "convertUsernameToLowercase": true,
+    "auth": {
+        "microsoft": {
+            "enabled": true
+        }
+    },
+    "cluster":false
+}

@@ -64,3 +64,5 @@ async function queryOpenRouter(prompt) {
         console.error(`An error occurred: ${error}`);
     }
 })();
+
+module.exports = queryOpenRouter;

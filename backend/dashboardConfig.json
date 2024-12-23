@@ -1,0 +1,11 @@
+{
+    "apps": [
+      {
+        "appId": "testLlama",
+        "masterKey": "sticazzi",
+        "serverURL": "http://localhost:1337/parse",
+        "appName": "Llameggiamento"
+      }
+    ],
+    "dev": true
+  }
